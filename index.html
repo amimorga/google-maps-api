@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="stylesheet" href="Api.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Api.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <title>Maps API</title>
+  <title>Maps API</title>
 </head>
-<body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-            <div ><i class="fas fa-map-marker-alt fa-1x"></i></div>
-            <a class="navbar-brand"> Google Maps API</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-        
-        <!-- Header Image -->
-        <div class="hero-image">
-                <div class="hero-text">
-                  <h1>Google Maps API</h1>
-                  <p>Go anywhere from your computer screen!</p>
-                </div>
-              </div>
-              <!-- API fetch button and styling -->
-            
 
-              <!-- Footer -->
-              <hr>
-              <h4 class="text-center">This API was brought to you by Amira Morgan</h4>
-              <div ><i class="fas fa-map-marker-alt fa-2x"></i></div>
-              <!-- Font Awesome Script -->
-              <script src="https://kit.fontawesome.com/4a082236ab.js" crossorigin="anonymous"></script>
+<body>
+
+  <!-- APP -->
+  <div class="location">
+    <h1 class="location-timezone">TimeZone</h1>
+    <canvas class=icon" width="128" height="128"></canvas>
+
+  </div>
+  <div class="temperature">
+    <div class="degree-section">
+      <h2 class=temperature-degree></h2>
+      <span>F</span>
+    </div>
+
+    <div class="temperature-description">It's cold outside!</div>
+  </div>
+
+  <!-- Font Awesome Script -->
+  <script src="skycons.js"></script>
+  <script src="Api.js"></script>
+
 </body>
 
 </html>
-
