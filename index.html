@@ -4,25 +4,35 @@
 <head>
   <link rel="stylesheet" href="Api.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
 
   <title>Maps API</title>
 </head>
 
 <body>
+  <div class="mdl-card mdl-shadow--16dp">
+    <div class="mdl-card__title">
+      ...
+    </div>
+    <div class="mdl-card__media">
+      <canvas id="" width="128" height="128"></canvas>
+    </div>
+    <div class="mdl-card__supporting-text" id="result"></div>
+    <button class="mdl-button mdl-js-button mdl-button--primary" id="tempChange"></button>
+    <div class="mdl-card__supporting-text" id="summary">
+    </div>
+    <div class="mdl-card__supporting-text" id="today"></div>
 
-    <div class="container">
-        <div class="weather-box">
-            <div class="row1">
-                <h2 class="weather-location"></h2>
-                <canvas class="icon" width="128" height="128"></canvas>
-            </div>
-            <div class="row2">
-                <h1 class="temp">F</h1>
-            </div>
-            <h2 class="weather-description">Its Cold Outside</h2>
-  <!-- Font Awesome Script -->
-  <script src="skycons.js"></script>
-  <script src="Api.js"></script>
+  </div>
+  
+  <footer><a href="https://darksky.net/poweredby/" target="_blank">Created with Dark Sky</a></footer>
+
+
+</body>
+
+</html>
+<script src="skycons.js"></script>
+<script src="Api.js"></script>
 
 </body>
 
