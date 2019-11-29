@@ -22,9 +22,7 @@ $(document).ready(function() {
     function getWeather(lat, lon) {
       var url =
         "https://api.darksky.net/forecast/4775636b47feb23f807ab79384a01cf4/37.8267,-122.4233" +
-        lat +
-        "," +
-        lon +
+
         "?callback=?&exclude=minutely,hourly,daily,flags?&units=si";
       $.getJSON(url, function(data) {
         var temp = data.currently.temperature.toFixed(1);
